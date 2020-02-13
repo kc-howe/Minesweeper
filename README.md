@@ -1,23 +1,14 @@
----------------------------------------------------
-        MINESWEEPER - Kenneth Howe, 2020
----------------------------------------------------
-
-ABOUT:
-
+# Minesweeper
 This implementation of Minesweeper was created as
 an assignment submission for the CS1181 (Computer
 Science II) course at Wright State University.
 
-Although it is just a first attempt at creating a
-GUI in JavaFX, the game plays (mostly) like normal:
-
-
-CONTROLS:
+## Controls
 
 Left-click: Activate tile
 Right-click: Toggle flag
 
-ADDITIONAL:
+## Additional
 
 - If the corresponding number of flags are placed
   in the neighborhood of a numbered tile (e.g. a
