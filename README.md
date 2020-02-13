@@ -4,6 +4,7 @@ This implementation of Minesweeper was created as an assignment submission for t
 ## Controls
 
 Left-click: Activate tile
+
 Right-click: Toggle flag
 
 ## Additional
