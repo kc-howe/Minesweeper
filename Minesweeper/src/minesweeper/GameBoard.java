@@ -58,7 +58,7 @@ public class GameBoard {
             }
             
             // Initialize the displayed score
-            label.setText("Score: " + (tiles.size() - this.coveredCount) + "/" + (tiles.size() - this.mineCount));
+            label.setText(" Score: " + (tiles.size() - this.coveredCount) + "/" + (tiles.size() - this.mineCount));
             label.setFont(new Font("Century Gothic", 16));
             
             GridPane.setConstraints(t.getCoveredImg(), t.getX(), t.getY());
