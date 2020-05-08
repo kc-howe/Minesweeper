@@ -87,7 +87,7 @@ public class GameBoard {
 
                         // If the game isn't over, increase the score
                         else {
-                            label.setText("Score: " + (tiles.size() - this.coveredCount) + "/" + (tiles.size() - this.mineCount));
+                            label.setText(" Score: " + (tiles.size() - this.coveredCount) + "/" + (tiles.size() - this.mineCount));
                         }
 
                         // Tiles with zero mine neighbors uncover all connected non-mine tiles
@@ -176,7 +176,7 @@ public class GameBoard {
             }
         }
         
-        label.setText("Game over!");
+        label.setText(" Game over!");
     }
     
     /**
@@ -193,7 +193,7 @@ public class GameBoard {
             });
         }
         
-        label.setText("You win!");
+        label.setText(" You win!");
     }
     
 }
