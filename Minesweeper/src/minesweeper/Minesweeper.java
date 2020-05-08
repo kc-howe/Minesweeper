@@ -131,10 +131,11 @@ public class Minesweeper extends Application {
         BorderPane.setAlignment((Node) label, Pos.CENTER);
         root.getChildren().addAll(bPane, gPane);
         
-        Scene scene = new Scene(root, 30*width, 28+30*height);
+        Scene scene = new Scene(root, 30*width-12, 16+30*height);
         
         primaryStage.setTitle("Minesweeper");
         primaryStage.getIcons().add(new Image("file:src/minesweeper/icon.png")); //Change app icon
+        primaryStage.setResizable(false);
         primaryStage.setScene(scene);
         
         
