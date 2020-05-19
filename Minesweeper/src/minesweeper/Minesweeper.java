@@ -127,7 +127,11 @@ public class Minesweeper extends Application {
         
         // Initialize game board header
         bPane.setLeft(label);
+        label.setTranslateX(4);
+        
         bPane.setRight(button);
+        button.setTranslateX(-4);
+        
         BorderPane.setAlignment((Node) label, Pos.CENTER);
         root.getChildren().addAll(bPane, gPane);
         
